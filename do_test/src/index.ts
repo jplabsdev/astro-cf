@@ -1,4 +1,3 @@
-export { DOLiveChat } from './chat';
 export { DOTest } from './test';
 
 export default {
