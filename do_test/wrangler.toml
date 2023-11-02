@@ -1,0 +1,11 @@
+name = "do_test"
+main = "src/index.ts"
+compatibility_date = "2023-11-02"
+
+[[durable_objects.bindings]]
+name = "DOTest"
+class_name = "DOTest"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["DOTest"]

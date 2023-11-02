@@ -1,0 +1,8 @@
+[[durable_objects.bindings]]
+name = "DOTest"
+class_name = "DOTest"
+script_name = "do_test"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["DOTest"]
